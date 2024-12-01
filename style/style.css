@@ -1,0 +1,128 @@
+#first-text{
+    color:yellow;
+    font-size:80px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.first-div{
+    background-color: blue;
+}
+
+.header-menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.first-para{
+    color: blue;
+}
+
+table{
+    width:100%
+  }
+  th,td{
+    border: 2px solid #ddd;
+    padding: 8px ;
+    text-align: center;
+  }
+  thead{
+    background-color: #ccc;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  input,textarea{
+    width: 600px;
+    margin: 5px;
+  }
+
+  .kartik-group{
+    background: #000;
+    padding: 80px 0px;
+    color: #fff;
+    background : url("../images/logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-image{
+    width: 100%;
+  }
+  .footer-li{
+    list-style: none;
+  }
+
+  /* ::after ::before */
+  .para-content:hover:after{
+    content: "After";
+    text-align: center;
+    color: white;
+    background: red;
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .para-content:hover::before{
+    content: "Before";
+    text-align: center;
+    color: white;
+    background: blue;
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+ 
+
+  /* Nav Bar */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  /* li{
+    display: inline-block;
+    font-family: "Roboto",sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(201, 195, 195);
+    list-style: none;
+    padding: 0 20px;
+  } */
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: darkgreen;
+    width: 100%;
+   
+  }
+  .logo{
+    cursor: pointer;
+    width:75px;
+    height: 75px;
+    border-radius: 5px;
+  }
+
+  .cards img{
+    width: 100%;
+  }
+  .cards{
+    background: #ccc;
+    cursor: pointer;
+  }
+  .cards:hover{
+    background: #000;
+    color: white;
+  }
+  
+  @media only screen and (max-width:768px) {
+    #first-text{
+      color:white;
+    }
+  }
+  @media only screen and (max-width:1024px) {
+    
+  }

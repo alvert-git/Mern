@@ -8,6 +8,8 @@
 // const output = users.filter((x)=>x.age>40).map((y)=>y.firstName);
 // console.log(output);
 
+console.log("kartik");
+
 
 let arr = ["Ram","Shyam","Hari","Gita"]
 arr.shift();
